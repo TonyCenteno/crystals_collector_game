@@ -14,7 +14,7 @@ a p small:hover {
     color:#6babe0;
 }
 body {
-    background: rgba(31, 118, 187);
+    background:#1f76bb;
 }
 h1 {
     margin-bottom: 0px;
@@ -62,8 +62,9 @@ span #myLives {
     color:red;
 }
 #loser, #winner, #instructions, #intro, #instructions2 {
+    overflow: auto;
     margin: auto;
-    padding-top: 220px;
+    padding-top: 88px;
     background-color:rgba(31, 118, 187, 0.85);
     height: 100%;
     width: 100%;
