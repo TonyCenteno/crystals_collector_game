@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+.rounded {
+    border:1px solid #1e68a5;
+}
+a:hover {
+    text-decoration: none;
+}
+a small:hover {
+    color:#6babe0;
+}
+a p small:hover {
+    color:#6babe0;
+}
+body {
+    background: rgba(31, 118, 187);
+}
+h1 {
+    margin-bottom: 0px;
+    font-size:28px;
+    color:#fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight:700;
+}
+h2 {
+    margin-bottom: 0px;
+    font-size:18px;
+    color:#fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight:700;
+}
+p {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    padding-left:15px;
+}
+.row {
+    padding-top:35px;
+}
+.curscore.row {
+    padding-top:0;
+}
+h1, h2 {
+    padding-top:15px;
+    padding-left:15px;
+}
+.main .col {
+    margin-bottom:35px;
+}
+.main p small{
+    color: #fc0;
+    padding-top: 90px;
+    font-size: 90px;
+    line-height: 100px;
+}
+.lightfont {
+    font-weight: 400;
+}
+span #myLives {
+    color:red;
+}
+#loser, #winner, #instructions, #intro, #instructions2 {
+    margin: auto;
+    padding-top: 220px;
+    background-color:rgba(31, 118, 187, 0.85);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    display: none;
+}
+#intro {
+    background-color:#1f76bb;
+    padding-top: 55px;
+}
+#intro .logo {
+    margin: auto;
+    max-width: 400px;
+    min-width: 30px;
+    width: 100%;
+}
+.contain {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#loser h1, #winner h1, #instructions h1, #intro h1, #instructions2 h1 {
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+small {
+    color: #fff;
+    
+}
+a p small {
+    color: #fff;
+}
+.crystalImage {
+    max-width:112px;
+    min-width: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(31, 118, 187);
+}
+.crystalImage:hover {
+    border-bottom: 1px solid #fff;
+}
+p small {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 0.5;
+}
+.button small {
+    border: 1px solid #fff;
+    border: 1px solid #fff;
+    padding: 9px;
+    border-radius: 9px;
+}
+
+/* Medium devices (tablets, less than 980px) */
+@media (max-width: 979.98px) {
+}
+@media (max-width: 767.98px) {
+}
+@media (max-width: 639.98px) {
+}
+
